@@ -1,4 +1,4 @@
-my_dir='/home/mitsos/Documents/code base/google my bussiness/'
+my_dir='/home/mitsos/Documents/code base/google my business/'
 
 import pandas as pd
 import csv
