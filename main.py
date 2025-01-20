@@ -342,7 +342,7 @@ try:
             driver.maximize_window()
             label = tk.Label(root, text=f"Checked: {i} out of {x} entries")
             label.pack(pady=10)
-            #time.sleep(45)
+            time.sleep(25)
         captcha = driver.find_elements("xpath",'//form[contains(@id,"captcha-form")]')
         if(captcha==[]):
             no_cookies = driver.find_elements("xpath", '//div[contains(@class,"QS5gu sy4vM")]')
